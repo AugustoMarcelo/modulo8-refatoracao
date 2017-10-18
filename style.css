@@ -1,0 +1,124 @@
+.btn {
+	cursor: pointer;
+}
+
+/*-------------------------------------------
+ * Personalização padrão para todos os modals
+ *-----------------------------------------*/
+ 
+/*--------------
+ * Base do Modal
+ *------------*/
+.modal-content {
+	border-radius: 0;
+}
+
+/*-------------------
+ * Cabeçalho do modal
+ *------------------*/
+.modal .modal-header {
+	padding: 1.5rem;
+}
+
+.modal .modal-header .modal-title {
+	flex-grow: 1;
+	text-align: center;
+	margin-left: 15px;
+}
+
+.modal .modal-header .close {
+	align-self: flex-start;
+	margin-top: -20px;
+    margin-right: -10px;
+    cursor: pointer;
+}
+
+.modal .modal-title,
+.modal .close {
+	color: #FFF;
+}
+
+/*---------------
+ * Corpo do modal
+ *-------------*/
+.modal .modal-body {
+	display: flex;
+	align-items: center;
+	flex-flow: column;
+}
+
+.modal .modal-body p {
+	color: #95a5a6;
+	font-size: 17px;
+}
+
+/*----------------
+ * Rodapé do modal
+ *--------------*/
+.modal .modal-footer {
+	justify-content: center;
+	border:none;
+}
+
+.modal .modal-footer button {
+	border-radius: .10rem;
+}
+
+/*------------------------------------------------------
+ * Personalização específica para cada classe contextual
+ *----------------------------------------------------*/
+
+/*-------------- 
+ * Modal Success 
+ *------------*/
+.modal.modal-success .modal-header {
+	background-color: #27ae60;
+}
+
+.modal.modal-success .modal-body h3 {
+	color: #27ae60;
+}
+
+/*-------------- 
+ * Modal Primary 
+ *------------*/
+.modal.modal-primary .modal-header {
+	background-color: #007BFF;
+}
+
+.modal.modal-primary .modal-body h3 {
+	color: #007BFF;
+}
+
+/*-------------- 
+ * Modal Warning 
+ *------------*/
+.modal.modal-warning .modal-header {
+	background-color: #f39c12;
+}
+
+.modal.modal-warning .modal-body h3 {
+	color: #f39c12;
+}
+
+/*----------- 
+ * Modal Info 
+ *---------*/
+.modal.modal-info .modal-header {
+	background-color: #138496;
+}
+
+.modal.modal-info .modal-body h3 {
+	color: #138496;
+}
+
+/*------------- 
+ * Modal Danger 
+ *-----------*/
+.modal.modal-danger .modal-header {
+	background-color: #C82333;
+}
+
+.modal.modal-danger .modal-body h3 {
+	color: #C82333;
+}

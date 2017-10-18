@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+
+	<div class="container">
+		<div class="row mt-3 justify-content-around">
+			<div class="col-2">
+				<button type="button" class="btn btn-success" data-toggle="modal" data-target="#modalSuccess">
+				  Launch success modal
+				</button>
+			</div>
+			<div class="col-2">
+				<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalPrimary">
+				  Launch primary modal
+				</button>
+			</div>
+			<div class="col-2">
+				<button type="button" class="btn btn-warning" data-toggle="modal" data-target="#modalWarning">
+				  Launch warning modal
+				</button>
+			</div>
+			<div class="col-2">
+				<button type="button" class="btn btn-info" data-toggle="modal" data-target="#modalInfo">
+				  Launch info modal
+				</button>
+			</div>
+			<div class="col-2">
+				<button type="button" class="btn btn-danger" data-toggle="modal" data-target="#modalDanger">
+				  Launch danger modal
+				</button>
+			</div>
+		</div>
+	</div>
+	
+	<!-- Modal Success -->
+	<div class="modal fade modal-success" id="modalSuccess" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	  <div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <h5 class="modal-title" id="exampleModalLabel">
+	        	<img src="icons/ic_check_circle_white_24dp_2x.png" alt="Circle Check">
+			</h5>
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	          <span aria-hidden="true">&times;</span>
+	        </button>
+	      </div>
+	      <div class="modal-body">
+	        <h3>Great!</h3>
+	        <p>Your data has been successfully saved.</p>
+	      </div>
+	      <div class="modal-footer">
+	        <button type="button" class="btn btn-outline-success text-uppercase" data-dismiss="modal">Back to my work</button>
+	        <button type="button" class="btn btn-outline-success text-uppercase">Back to store hours</button>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+
+	<!-- Modal Primary -->
+	<div class="modal fade modal-primary" id="modalPrimary" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	  <div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <h5 class="modal-title" id="exampleModalLabel">
+	        	<img src="icons/ic_insert_emoticon_white_24dp_2x.png" alt="Circle Check">
+			</h5>
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	          <span aria-hidden="true">&times;</span>
+	        </button>
+	      </div>
+	      <div class="modal-body">
+	        <h3>Welcome!</h3>
+	        <p>Welcome to our lesson platform!</p>
+	      </div>
+	      <div class="modal-footer">
+	        <button type="button" class="btn btn-outline-primary text-uppercase" data-dismiss="modal">Back to home</button>
+	        <button type="button" class="btn btn-outline-primary text-uppercase">Go to class</button>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+
+	<!-- Modal Warning -->
+	<div class="modal fade modal-warning" id="modalWarning" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	  <div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <h5 class="modal-title" id="exampleModalLabel">
+	        	<img src="icons/ic_warning_white_24dp_2x.png" alt="Circle Check">
+			</h5>
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	          <span aria-hidden="true">&times;</span>
+	        </button>
+	      </div>
+	      <div class="modal-body">
+	        <h3>Warning!</h3>
+	        <p>You may be sending personal data!</p>
+	      </div>
+	      <div class="modal-footer">
+	        <button type="button" class="btn btn-outline-warning text-uppercase" data-dismiss="modal">Back to form</button>
+	        <button type="button" class="btn btn-outline-warning text-uppercase">Continue</button>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+
+	<!-- Modal Info -->
+	<div class="modal fade modal-info" id="modalInfo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	  <div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <h5 class="modal-title" id="exampleModalLabel">
+	        	<img src="icons/ic_info_white_24dp_2x.png" alt="Circle Check">
+			</h5>
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	          <span aria-hidden="true">&times;</span>
+	        </button>
+	      </div>
+	      <div class="modal-body">
+	        <h3>Processing done!</h3>
+	        <p>Your order will be delivered shortly.</p>
+	      </div>
+	      <div class="modal-footer">
+	        <button type="button" class="btn btn-outline-info text-uppercase" data-dismiss="modal">Back to cart</button>
+	        <button type="button" class="btn btn-outline-info text-uppercase">Buy more</button>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+
+	<!-- Modal Danger -->
+	<div class="modal fade modal-danger" id="modalDanger" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	  <div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <h5 class="modal-title" id="exampleModalLabel">
+	        	<img src="icons/ic_highlight_off_white_24dp_2x.png" alt="Circle Check">
+			</h5>
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	          <span aria-hidden="true">&times;</span>
+	        </button>
+	      </div>
+	      <div class="modal-body">
+	        <h3>Fail!</h3>
+	        <p>There was a problem saving the data!</p>
+	      </div>
+	      <div class="modal-footer">
+	        <button type="button" class="btn btn-outline-danger text-uppercase" data-dismiss="modal">Back to my work</button>
+	        <button type="button" class="btn btn-outline-danger text-uppercase">Back to store hours</button>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+
+	<!-- JavaScript Plugins -->
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
+  </body>
+</html>
